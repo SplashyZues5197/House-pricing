@@ -1,0 +1,18 @@
+---
+title: "House pricing"
+---
+
+```{r}
+#| echo: False
+#| output: False
+library(tidyverse)
+library(dbplyr)
+library(janitor)
+library(ggplot2)
+
+```
+
+```{r}
+read_rds("House_affordability.rds")
+```
+
